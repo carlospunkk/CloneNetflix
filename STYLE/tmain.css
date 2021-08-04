@@ -1,0 +1,26 @@
+
+
+/*definindo variaveis cores*/
+:root{
+    --vermelho:#e50914;
+    --preto:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--preto);
+    font-family: 'ARIAL', Times, serif;
+    color:white;
+}
+ .tela1 {
+   
+    margin-left: 4px;
+    height: 300px;
+    align-items: center;
+}
+.tela{
+    align-items: center;
+}
