@@ -1,117 +1,132 @@
-:root{
-    --vermelho:#e50914;
-    --preto:#141414;
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
 }
 
 
 /*reset tela*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* elementos Base */
 
-body{
+body {
     background: var(--preto);
     font-family: 'ARIAL', Times, serif;
-    color:white;
+    color: white;
 }
 
-header .container{
- display: flex;
- flex-direction: row;
- align-items: center;
- justify-content: space-between;
- 
-    
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
 }
-header .logo{
+
+header .logo {
     margin-left: 5px;
     color: var(--vermelho);
-    font-family:"Arial Black";
+    font-family: "Arial Black";
     font-size: 40px;
 }
+
 /* configuração do menu */
-header nav a{
-    text-decoration:none;
-    color:#aaa;
+header nav a {
+    text-decoration: none;
+    color: #aaa;
     margin-right: 10px;
 }
+
 /*configuração trocando a cor do menu quando o mouse passar pela letra usando o :hover*/
-header nav a:hover{
-    color:#fff;
+header nav a:hover {
+    color: #fff;
 }
 
 /*Filme Principal*/
-.filme_principal{
-font-size: 16px;
-/*background: linear-gradient(rgba(0, 0, 0, 0.918)rgba(0,0,0,.50));*//*aqui defini a tranparencia da imagem gradiente*/
-background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)100%), url('/IMG/posterviuvanegra.jpg');/*aqui estou chamando a imagem de fundo que está na pasta img*/
+.filme_principal {
+    font-size: 16px;
+    /*background: linear-gradient(rgba(0, 0, 0, 0.918)rgba(0,0,0,.50));*/
+    /*aqui defini a tranparencia da imagem gradiente*/
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)100%), url('./IMG/posterviuvanegra.jpg');
+    /*aqui estou chamando a imagem de fundo que está na pasta img*/
 
-height: 450px;/*aqui defini a altura da minha caixa*/
-background-size: cover ;/*aqui defino que a imagem vai ficar em toda a minha area de cobertura  da caixa usando o cover */
+    height: 450px;
+    /*aqui defini a altura da minha caixa*/
+    background-size: cover;
+    /*aqui defino que a imagem vai ficar em toda a minha area de cobertura  da caixa usando o cover */
 
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 
 
 }
 
-.filme_principal .descricao{
+.filme_principal .descricao {
     margin-bottom: 40px;
     /*margin-left: 5px;*/
 }
-.descricao{
+
+.descricao {
     margin-top: 10px;
-    color:#fff
+    color: #fff
 }
-.titulo_Filme{
+
+.titulo_Filme {
     margin-top: 15%;
     font-size: 40px;
     color: var(--preto);
-    font-family:"Arial Black";
+    font-family: "Arial Black";
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /*margin-left: 5px;*/
-    }
+}
 
-.botao{
+.botao {
 
-    background-color: rgba(0,0,0,0.50);
+    background-color: rgba(0, 0, 0, 0.50);
     border: none;
-    color:white;
-    padding:15px 30px;
+    color: white;
+    padding: 15px 30px;
     margin-right: 15px;
     font-size: 12px;
     cursor: pointer;
     transition: .3s ease all;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: white;
     color: black;
 
 }
-.botao i{
+
+.botao i {
     margin-right: 5px;
 }
 
-.container{
+.container {
     margin-left: 10px;
 }
-;.filme_principal .container{
+
+;
+
+.filme_principal .container {
     width: 70%;
 }
 
-.box-filme{
-height: 100%;
-width: 100%;
-display: block;
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
-.carrousel_filmes{
-margin-top: 3px;
-margin-left: 3px;
-margin-right: 3px;
+
+.carrousel_filmes {
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
 }
