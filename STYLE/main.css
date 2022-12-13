@@ -52,7 +52,7 @@ header nav a:hover {
     font-size: 16px;
     /*background: linear-gradient(rgba(0, 0, 0, 0.918)rgba(0,0,0,.50));*/
     /*aqui defini a tranparencia da imagem gradiente*/
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)100%), url('../IMG/posterviuvanegra.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)100%), url('IMG/posterviuvanegra.jpg');
     /*aqui estou chamando a imagem de fundo que está na pasta img*/
 
     height: 450px;
